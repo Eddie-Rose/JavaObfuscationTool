@@ -15,7 +15,7 @@ public class Main {
                 //Sets the file to the main src code folder
                 if (projectExists){
                         file = new File(System.getProperty("user.dir"));
-                        file = new File(file.getParentFile().getAbsolutePath() + "/Compsci/COMPSCI702Project/app/src/main/");
+                        file = new File(file.getAbsolutePath() + "/COMPSCI702Project/app/src/main/");
                         System.out.println(file.getAbsolutePath());
                         fileManager.printDirectory(file);
 

@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class FileManager {
     private static FileManager fileManager = null;
-    private String projectToBeObfuscated = "Compsci";
+    private String projectToBeObfuscated = "COMPSCI702Project";
     private Stack<File> fileStack;
 
     private FileManager(){ }

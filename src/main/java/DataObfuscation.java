@@ -124,7 +124,7 @@ public class DataObfuscation {
 
         BufferedImage img = null;
         try{
-            img = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\main\\resources\\android_icon.png"));
+            img = ImageIO.read(new File(System.getProperty("user.dir") + "\\JavaObfuscationTool\\src\\main\\resources\\android_icon.png"));
             String x = (System.getProperty("user.dir") + "\\src\\main\\resources\\android_icon.png");
             String xw = "2";
         } catch (IOException e){
