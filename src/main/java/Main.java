@@ -8,7 +8,6 @@ public class Main {
 
                 //Checks if the android application src code exists in the current directory
                 String dir = System.getProperty("user.dir");
-                System.out.println(dir);
                 File file = new File(dir+"/..");
                 boolean projectExists = fileManager.checkForFile(file);
 
@@ -17,7 +16,6 @@ public class Main {
                         file = new File(System.getProperty("user.dir"));
                         file = new File(file.getAbsolutePath() + "/COMPSCI702Project/app/src/main/");
                         System.out.println(file.getAbsolutePath());
-                        fileManager.printDirectory(file);
 
                 }
                 else{
