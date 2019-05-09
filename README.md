@@ -5,7 +5,7 @@ encrypts and/ all json file using an xor encryption algorithm. The key of the
 xor encryption algorithm is stored in a specific pixel stored in an image.
 
 This Java obfuscation tool is fixed to only work with a project folder named:
-COMPSCI702Project, and the src folders must be within teh file directory:
+COMPSCI702Project, and the src folders must be within the file directory:
 COMPSCI702Project/app/src/main. 
 
 To obfuscate a project folder the following steps and conditions must be followed:
