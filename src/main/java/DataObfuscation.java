@@ -74,19 +74,16 @@ public class DataObfuscation {
 
             if (name.equals("question")){
                 String value = stringEncryption(e.getValue().toString());
-                name = stringEncryption(name);
                 encryptedJsonObject.put(name,value);
             }
             //replies contains a Json array so the implementation has to be a bit different
             else if (name.equals("replies")){
                 JSONArray encryptedArray = encryptJsonArray(e.getValue());
-                name = stringEncryption(name);
                 encryptedJsonObject.put(name,encryptedArray);
 
             }
             else if (name.equals("id")){
                 String value = stringEncryption(e.getValue().toString());
-                name = stringEncryption(name);
                 encryptedJsonObject.put(name,value);
             }
             //The json name is unique so it will be a message that needs encrypting
